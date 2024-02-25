@@ -1,0 +1,18 @@
+activate ollama_embedding
+cd C:\Users\E.C.E\anaconda3\envs\ollama_embedding\ck
+python app_pdf_embedder_v2.py
+
+
+
+pip install langchain langchain-community langchain-core PyPDF2
+
+ollama pull nomic-embed-text
+ollama run mistral 
+
+pip install bs4
+pip install tiktoken
+pip install chromadb
+pip install gradio
+pip install pypdf
+
+to lauch gradio use conda cmd python app_v2.py
